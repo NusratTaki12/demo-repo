@@ -9,7 +9,7 @@ p{
     font-size: 20px;
 }
 span{
-    color: orange;
+    color:coral;
 
 }
 .flexible-container{
@@ -23,7 +23,7 @@ span{
 .half-width img{
     width:100%;
    }
-   .order-button{
+   .learn-button{
        text-decoration: none;
        background-image:linear-gradient(orange, coral,red ) ;
        padding: 20px 50px;
@@ -40,24 +40,20 @@ span{
     width:100;
 }
 .recipies{
-    /*background-image:url(Frame58.jpg);*/
     text-align: center;
     padding-right:20px ;
     padding-left:20px ;
- 
-}
+ }
 #recipie-description{
     font-size: 15px;
     margin-left:  10%;
     margin-right:  10%;
-    
-}
+    }
 .recipie-list{
     background-color:white;
     padding:5%;
-   
     display:flex;
-}
+   }
 .one-third-width{
     flex:1;
     width: 60px;
@@ -85,7 +81,6 @@ span{
     margin-right:5%;
     margin-left:5%;
     margin-bottom:5%;
-    /*margin:10% 10% 10% 10%;*/
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display:flex;
 }
@@ -93,12 +88,9 @@ span{
     flex:1;
     width: 30px;
     height: 80px;
-    /*border-radius: 25px;*/
-    width:30%;
+ width:30%;
     margin-right:3%;
-    
-    /*box-shadow: rgba(54, 54, 134) 0px 7px 29px ;*/
-   }
+}
 
  .socialmedia-h1-font{
      text-align: center;
@@ -115,20 +107,41 @@ span{
 .footer{
         background-color:black;
         padding-top:2%;
-        
         width: 100%;
         height:300px;
-       
-       
-      
-        /*margin:10% 10% 10% 10%;*/
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 #footer-font{
-    text-align:center;
+    text-align: center;
     color: white;
 }
 #footer-h2{
-    text-align:center;
+    font-size:  50px;
+    font-weight: 600;
+    text-align: center;
     color: white;
 }
+.header{
+  
+        padding-top:2%;
+        width: 100%;
+        height:200px;
+        background-image:url(ProjectCover4.png);
+
+}
+
+#header-h1{
+    text-align: center;
+    color:white ;  
+}
+#steak{
+    padding: 3%;  
+}
+#pancake{
+    padding: 3%;   
+}
+#soup{
+    padding: 3%;
+}
+
+
