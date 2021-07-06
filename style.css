@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 h1{
-   font-size:  50px;
+   font-size:  90px;
 }
 p{
     font-size: 20px;
@@ -14,27 +14,27 @@ span{
 }
 .flexible-container{
     display:flex;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 .half-width{
  width:50%;
- padding:5%;
+ padding:3%;
 }
 .half-width img{
-    width:90%;
+    width:100%;
    }
    .order-button{
        text-decoration: none;
-       background-image:linear-gradient(orange, coral ) ;
-       padding: 10px 30px;
+       background-image:linear-gradient(orange, coral,red ) ;
+       padding: 20px 50px;
        border-radius: 25px;
        color:white;
-       font-weight: 700;
+       font-weight: 800;
    }
 .middle-banner{
     background-image:url(Frame58.jpg);
     background-position: right;
-    
+    height: 616px;
 }
 .middle-banner img{
     width:100;
@@ -73,4 +73,62 @@ span{
     width:90%;
     padding:5%
    }
-   
+   .recipie-font{
+       margin-left:5%;
+   }
+   .social-media-box{
+    padding-top:2%;
+    padding-left:3%;
+    width: 1600px;
+    height: 200px;
+    border-radius: 25px;
+    margin-right:5%;
+    margin-left:5%;
+    margin-bottom:5%;
+    /*margin:10% 10% 10% 10%;*/
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display:flex;
+}
+.social-media-bar{
+    flex:1;
+    width: 30px;
+    height: 80px;
+    /*border-radius: 25px;*/
+    width:30%;
+    margin-right:3%;
+    
+    /*box-shadow: rgba(54, 54, 134) 0px 7px 29px ;*/
+   }
+
+ .socialmedia-h1-font{
+     text-align: center;
+    padding: 0px; 
+    margin: 0px;
+
+}
+.socialmedia-p-font{
+    text-align: center;
+   padding: 0px; 
+   margin: 0px;
+
+}
+.footer{
+        background-color:black;
+        padding-top:2%;
+        
+        width: 100%;
+        height:300px;
+       
+       
+      
+        /*margin:10% 10% 10% 10%;*/
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#footer-font{
+    text-align: center;
+    color: white;
+}
+#footer-h2{
+    text-align: center;
+    color: white;
+}
