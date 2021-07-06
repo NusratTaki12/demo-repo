@@ -12,8 +12,9 @@ span{
     color: orange;
 
 }
-section{
+.flexible-container{
     display:flex;
+    margin-bottom: 80px;
 }
 .half-width{
  width:50%;
@@ -32,8 +33,44 @@ section{
    }
 .middle-banner{
     background-image:url(Frame58.jpg);
+    background-position: right;
     
 }
 .middle-banner img{
-    width:100%;
+    width:100;
 }
+.recipies{
+    /*background-image:url(Frame58.jpg);*/
+    text-align: center;
+    padding-right:20px ;
+    padding-left:20px ;
+ 
+}
+#recipie-description{
+    font-size: 15px;
+    margin-left:  10%;
+    margin-right:  10%;
+    
+}
+.recipie-list{
+    background-color:white;
+    padding:5%;
+   
+    display:flex;
+}
+.one-third-width{
+    flex:1;
+    width: 60px;
+    height: 600px;
+    border-radius: 25px;
+    width:30%;
+    margin-right:3%;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   }
+   .one-third-width img{
+    
+    width:90%;
+    padding:5%
+   }
+   
